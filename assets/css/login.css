@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.flex-container {
+    margin: 20px auto;
+    width: 1100px;
+    height: auto;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    box-shadow: 5px 3px 10px black;
+
+}
+
+.aside-image {
+    background-image: url(/assets/img/background-3.png);
+    background-size: cover;
+    background-position: 50%;
+    flex: 1;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.main {
+    flex: 1;
+}
+
+.top-content {
+    display: flex;
+    margin: 50px;
+    /* background-color: blue; */
+}
+
+.top-content img {
+    width: 30px;
+    height: 33px;
+}
+
+.top-content a {
+    text-decoration: none;
+    color: black;
+    margin-right: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-content p {
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(59, 29, 7);
+}
+
+.has-account {
+    display: flex;
+    align-items: center;
+}
+
+.has-account-text {
+    flex: 2;
+    padding-top: 15px;
+    font-size: 12px;
+    text-align: center;
+    color: darkgray;
+}
+
+.underline {
+    flex: 1;
+    border-bottom: 2px solid darkgrey;
+}
+
+.login-here a.button {
+    background-color: #6A4029;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 35px;
+    padding-top: 5px;
+}
+
+.login-here a.button:hover {
+    background-color: #905536;
+}
+
+.main-bottom {
+    width: 670px;
+    height: auto;
+    background-color: #F8F8F8;
+}
+
+.coffee-shop {
+    display: flex;
+    margin: 20px;
+}
+
+.coffee {
+    flex: 1;
+    margin: 20px;
+}
+
+.coffee strong {
+    font-size: 20px;
+}
+
+.coffee p {
+    color: #4F5665;
+}
+
+.coffee img {
+    width: 30px;
+    height: 33px;
+}
+
+.sosmed img {
+    background-color: #6A4029;
+    border-radius: 100%;
+    width: 30px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.copyright {
+    color: #AFB5C0;
+}
+
+.product-engage {
+    flex: 1;
+}
+
+.product {
+    display: flex;
+}
+
+.engage {
+    display: flex;
+}
+
+.product-one a,
+.product-two a {
+    margin: 15px;
+}
+
+.product-two a {
+    padding-left: 40px;
+}
+
+.engage-one a,
+.engage-two a {
+    margin: 15px;
+}
+
+.product a,
+.engage a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font: 18px;
+}
+
+.product a:hover,
+.engage a:hover {
+    color: rgb(114, 112, 112);
+}
+
+@media(max-width:834px) {
+    .flex-container {
+        margin: 20px auto;
+        width: 600px;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        justify-content: space-around;
+        box-shadow: 5px 3px 10px black;
+    }
+
+    .main {
+        flex: 2;
+    }
+
+    .aside-image {
+        height: 100px;
+        flex: 1;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .main-bottom {
+        width: 600px;
+        height: auto;
+        background-color: #F8F8F8;
+    }
+}
+
+@media(max-width:428px) {
+    .flex-container {
+        margin: 20px auto;
+        width: 350px;
+        height: 1500px;
+        flex-direction: column;
+        border-radius: 20px;
+        justify-content: space-around;
+        box-shadow: 5px 3px 10px black;
+    }
+
+    .main {
+        flex: 2;
+    }
+
+    .aside-image {
+        height: 100px;
+        flex: 1;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .top-content img,
+    .coffee img {
+        width: 20px;
+        height: 23px;
+    }
+
+    .coffee {
+        margin: 20px;
+    }
+
+    .top-content a {
+        margin-right: 140px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .top-content p {
+        font-size: 15px;
+        font-weight: bolder;
+        color: rgb(59, 29, 7);
+    }
+
+    .main-content {
+        margin-right: 30px;
+    }
+
+    .google-button {
+        margin-right: 30px;
+    }
+
+    .login-here a.button {
+        background-color: #6A4029;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        height: 35px;
+        padding: 5px 0;
+        margin-right: 30px;
+    }
+
+    .main-bottom {
+        width: 350px;
+        height: 600px;
+        background-color: #F8F8F8;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-two a {
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+
+    .engage-two a {
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+
+    .engage {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+}
