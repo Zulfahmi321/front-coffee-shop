@@ -38,6 +38,10 @@
 
 }
 
+.card {
+    border: none;
+}
+
 .card-body-profil,
 .card-body-contact {
     position: relative;
