@@ -26,4 +26,4 @@
 </div>
 
 ## RELATED PROJECT
-[gargyo-coffee-backend](https://github.com/yogaarta/gargyo_coffee.git)
+[coffee-shop](https://github.com/Zulfahmi321/coffee-shop.git)
