@@ -5,13 +5,9 @@
 }
 
 .flex-container {
-    margin: 20px auto;
-    width: 1100px;
+    width: 100%;
     height: auto;
     display: flex;
-    border-radius: 20px;
-    justify-content: space-around;
-    box-shadow: 5px 3px 10px black;
 
 }
 
@@ -20,8 +16,6 @@
     background-size: cover;
     background-position: 50%;
     flex: 1;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
 }
 
 .main {
@@ -42,33 +36,43 @@
 .top-content a {
     text-decoration: none;
     color: black;
-    margin-right: 300px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bold;   
+    margin-right: 500px;
 }
 
 .top-content p {
     font-size: 35px;
     font-weight: bolder;
     color: rgb(59, 29, 7);
+    
+}
+
+.form-text a{
+    text-decoration: none;
+    color: #6A4029;
+    font-weight: bold;
 }
 
 .has-account {
     display: flex;
     align-items: center;
+    
 }
 
 .has-account-text {
     flex: 2;
-    padding-top: 15px;
+    padding-top: 3px;
     font-size: 12px;
     text-align: center;
     color: darkgray;
+    margin: 0 -200px;
 }
 
 .underline {
     flex: 1;
     border-bottom: 2px solid darkgrey;
+    margin: 0 100px;
 }
 
 .login-here a.button {
@@ -78,6 +82,7 @@
     border-radius: 5px;
     height: 35px;
     padding-top: 5px;
+    margin: 0 97px;
 }
 
 .login-here a.button:hover {
@@ -85,7 +90,7 @@
 }
 
 .main-bottom {
-    width: 670px;
+    width: 100%;
     height: auto;
     background-color: #F8F8F8;
 }
@@ -166,14 +171,17 @@
 
 @media(max-width:834px) {
     .flex-container {
-        margin: 20px auto;
-        width: 600px;
+        width: 100%;
         height: 1500px;
         display: flex;
         flex-direction: column;
-        border-radius: 20px;
-        justify-content: space-around;
-        box-shadow: 5px 3px 10px black;
+    }
+    .top-content a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 400px;
     }
 
     .main {
@@ -183,49 +191,31 @@
     .aside-image {
         height: 100px;
         flex: 1;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 0px;
     }
 
     .main-bottom {
-        width: 600px;
+        width: 100%;
         height: auto;
         background-color: #F8F8F8;
     }
+
 }
 
 @media(max-width:428px) {
     .flex-container {
-        margin: 20px auto;
-        width: 350px;
+        width: 100%;
         height: 1500px;
         flex-direction: column;
-        border-radius: 20px;
-        justify-content: space-around;
-        box-shadow: 5px 3px 10px black;
     }
 
     .main {
         flex: 2;
-    }
-
-    .aside-image {
-        height: 100px;
-        flex: 1;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 0px;
     }
 
     .top-content img,
     .coffee img {
         width: 20px;
         height: 23px;
-    }
-
-    .coffee {
-        margin: 20px;
     }
 
     .top-content a {
@@ -240,28 +230,26 @@
         color: rgb(59, 29, 7);
     }
 
-    .main-content {
-        margin-right: 30px;
+    .has-account-text {
+        margin: 0 -80px;
     }
-
-    .google-button {
-        margin-right: 30px;
+    
+    .underline {
+        margin: 0 97px;
     }
-
+    
     .login-here a.button {
-        background-color: #6A4029;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 5px;
-        height: 35px;
-        padding: 5px 0;
-        margin-right: 30px;
+        margin: 0 97px;
     }
 
     .main-bottom {
-        width: 350px;
+        width: 100%;
         height: 600px;
         background-color: #F8F8F8;
+    }
+
+    .coffee {
+        margin: 20px;
     }
 
     .product {
