@@ -99,6 +99,11 @@
     margin: 50px 0;
 }
 
+.right-custom img{
+    width: 30px;
+    height: 30px; 
+}
+
 .card-img-hazelnut{
     width: 100px;
     height: 100px;
@@ -240,11 +245,11 @@
 }
 
 .left{
-    margin-top: -20px;
+    margin-top: -30px;
 }
 
 .card-see-promo{
-    width: 1300px;
+    width: 900px;
     height: 200px;
     padding: 50px 0;
     margin: 50px 0;
@@ -255,21 +260,6 @@
     height: 100px;
     text-align: start;
     padding: 0px 70px ;
-
-}
-
-.card-see-promo a{
-    padding: 20px 50px;
-    color: #6A4029;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    background-color: #FFBA33;
-    border-radius: 5px;
-}
-
-.card-see-promo a:hover{
-    color: white;
 }
 
 .main-bottom {
@@ -278,7 +268,7 @@
 }
 
 .left-content p {
-    color: #4F5665;
+    color:#4F5665;
 }
 
 .left-content img {
@@ -318,9 +308,13 @@
 }
 
 @media(max-width:834px) {
+    .main-content-one{
+        height: 500px;
+    }
     .card-content-two{
         width: 700px;
         height: 300px;
+        margin-top: 50px;
     }
     .row-content-three img{
         margin-left: 100px;
@@ -328,13 +322,12 @@
     .card-custom {
         margin-left: 100px;
     }
-    .card-see-promo{
-        padding: 0 0;
-        margin: 50px 0;
-    }
     .custom-review {
         padding-left: 0%;
         margin-bottom: 100px;
+    }
+    .button-promo{
+        margin-top: -50px;
     }
     .main-bottom {
         height: 700px;
@@ -344,6 +337,9 @@
 }
 
 @media(max-width:428px) {
+    .main-content-one{
+        height: 600px;
+    }
     .card-content-two{
         width: 700px;
         height: 500px;
@@ -353,6 +349,17 @@
         height: auto;
         margin-left: 50px;
     }
+    .right-custom{
+        text-align: start;
+    }
+    .right-custom p{
+        text-align: justify;
+    }
+    .right-custom img{
+        width: 30px;
+        height: 30px;
+        margin-left: -10px;
+    }
     .card-custom {
         margin-left: 50px;
     }
@@ -360,13 +367,13 @@
         width: 300px;
         height: auto;
     }
-    .custom-review {
-        margin-left: 10px;
-        margin-bottom: 100px;
+    .card-see-promo{
+        padding: 0 0;
+        margin: 50px 0;
     }
-    .custom-review {
-        padding-left: 5%;
-        margin-bottom: 100px;
+    .card-see-promo{
+        width: 350px;
+        height: 400px;
     }
     .main-bottom {
         height: 900px;
