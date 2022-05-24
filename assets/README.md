@@ -1,6 +1,6 @@
 # COFFEE SHOP
 
-![coffee](assets/img/icons/coffee-icon.png)
+![coffee](assets/img/icons/coffee-icon)
 
 
 ## BUILT WITH
@@ -12,7 +12,7 @@
 ## HOW TO INSTALL
 1. Clone this repository.
     ```
-    $ git clone https://github.com/yogaarta/gargyo-coffee-frontend.git
+    $ git clone https://github.com/Zulfahmi321/front-coffee-shop.git
     ```
 2. Open VS Code or you can download and install it [here](https://code.visualstudio.com/).
 3. To make it easier, you can install Live Server Extension for VS Code [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
@@ -20,9 +20,9 @@
 
 ## PREVIEW
 <div style="display:flex">
-<img src="assets/images/homepage.PNG" style="width: 200px">
-<img src="assets/images/login.PNG" style="width: 200px">
-<img src="assets/images/profile.PNG" style="width: 200px">
+<img src="assets/img/page/home.png" style="width: 200px">
+<img src="assets/img/page/login.png" style="width: 200px">
+<img src="assets/img/page/profil.png" style="width: 200px">
 </div>
 
 ## RELATED PROJECT
