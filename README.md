@@ -1,6 +1,6 @@
 # COFFEE SHOP
 
-![coffee](assets/img/icons/coffee-icon)
+![coffee](assets/img/icons/coffee-icon.png)
 
 
 ## BUILT WITH
@@ -20,9 +20,9 @@
 
 ## PREVIEW
 <div style="display:flex">
-<img src="assets/img/page/home.png" style="width: 200px">
-<img src="assets/img/page/login.png" style="width: 200px">
-<img src="assets/img/page/profil.png" style="width: 200px">
+<img src="assets/page/home.png" style="width: 200px">
+<img src="assets/page/login.png" style="width: 200px">
+<img src="assets/page/profil.png" style="width: 200px">
 </div>
 
 ## RELATED PROJECT
