@@ -39,33 +39,29 @@
     text-align: center;
 }
 
-.container-aside {
-    /* padding: 50px 0; */
-    margin: 50px 40px 0px 0;
+.container-left {
     text-align: center;
-    width: 300px;
+    width: 350px;
+    border-right: 1px solid #4F5665;
 }
 
-.container-aside h3 {
+.container-left h3 {
     color: #6A4029;
     font-weight: 700;
     font-size: 25px;
+    margin-top: 30px;
 }
 
-.container-aside p {
+.container-left p {
     font-size: 15px;
-}
-
-.aside-content {
-    margin: 30px 0;
 }
 
 .promo-one,
 .promo-two,
 .promo-three,
 .promo-four {
-    width: 300px;
-    height: 100px;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
     padding: 5px;
     margin: 20px 0px;
@@ -75,16 +71,14 @@
 .promo-two img,
 .promo-three img,
 .promo-four img {
-    width: 80px;
+    width: 90px;
     height: auto;
-    margin-top: -10px;
 }
 
 .promo-one strong,
 .promo-two strong,
 .promo-three strong,
 .promo-four strong {
-    /* margin-left: -105px; */
     font-size: small;
 }
 
@@ -94,7 +88,6 @@
 .promo-four p {
     width: 150px;
     padding: 10px 0;
-    margin-left: -55px;
     text-align: start;
     font-size: small;
 }
@@ -116,7 +109,7 @@
 }
 
 .apply-coupon {
-    width: 300px;
+    width: 340px;;
     height: 50px;
     background-color: #6A4029;
     color: white;
@@ -141,10 +134,14 @@
     font-size: 12px;
 }
 
+.container-right{
+    width: 100%;
+    font-size: 20px;
+}
+
 .nav-product {
-    margin: 30px 0px;
+    margin: 30px 120px;
     color: #9F9F9F;
-    padding-left: 0px;
 }
 
 .card-custom {
@@ -153,7 +150,7 @@
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
     margin: 10px 0;
-    width: 100px;
+    width: 130px;
     height: 200px;
     border: none;
     box-shadow: 1px 1px 10px rgb(231, 228, 228);
@@ -161,7 +158,7 @@
 
 .card-title-custom {
     font-weight: bold;
-    line-height: 15px;
+    line-height: 20px;
 }
 
 .card-text-custom {
@@ -172,18 +169,15 @@
 }
 
 .main-product{
-    width: 500px;
-    margin: 0 30px;
+    width: 700px;
+    margin: 0 100px;
 }
 
 .main-product img {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     object-fit: cover;
-    /* object-position: 0 -18px; */
-    /* margin-top: -15px;
-    margin-left: -5px; */
 }
 
 /* main bottom */
@@ -233,25 +227,108 @@
 }
 
 
-@media(max-width: 576px) {
-
-    .card-body-profil {
-        position: relative;
-        height: 300px;
+@media(max-width: 834px) {
+    .container-left {
+        text-align: center;
+        width: 100%;
+        border-right: none;
     }
-
-    .card-body-contact {
-        position: relative;
-        height: 400px;
+    
+    .container-left h3 {
+        color: #6A4029;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 30px;
     }
-
-    .card-body-detail {
-        height: 550px;
+    
+    .container-left p {
+        font-size: 15px;
     }
-
-    .card-pencil-img {
-        margin-left: 250px;
-        margin-top: -70px;
+    .promo-one p,
+    .promo-two p,
+    .promo-three p,
+    .promo-four p {
+        width: 150px;
+        text-align: center;
+        margin-left: 280px;
     }
+    .apply-coupon {
+        margin-left: 190px;
+    }
+    
+    .footer-aside {
+        margin-left: 190px;
+    }
+    
+    .footer-aside strong {
+        text-align: start;
+        font-size: 12px;
+    }
+    
+    .footer-aside p {
+        text-align: start;
+        font-size: 12px;
+    }
+    .main-product{
+        width: 100%;
+        margin-left: 100px;
+    }
+    .card-custom {
+        margin-left: -50px;
+        width: 130px;
+        height: 200px;
+        border: none;
+        box-shadow: 1px 1px 10px rgb(231, 228, 228);
+    }
+    .main-bottom {
+        height: 650px;
+    }
+}
 
+@media (max-width:428px){
+    .container-left h3 {
+        color: #6A4029;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .container-left p {
+        font-size: 15px;
+    }
+    .promo-one p,
+    .promo-two p,
+    .promo-three p,
+    .promo-four p {
+        width: 150px;
+        text-align: center;
+        margin-left: 130px;
+    }
+    .apply-coupon {
+        margin-left: 50px;
+    }
+    .footer-aside {
+        margin-left: 90px;
+    }
+    .footer-aside strong {
+        text-align: start;
+        font-size: 12px;
+    }
+    .footer-aside p {
+        text-align: start;
+        font-size: 12px;
+    }
+    .main-product{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .card-custom {
+        margin-left: 130px;
+        width: 130px;
+        height: 200px;
+        border: none;
+        box-shadow: 1px 1px 10px rgb(231, 228, 228);
+    }
+    .main-bottom {
+        height: 650px;
+    }
 }
