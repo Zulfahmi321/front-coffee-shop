@@ -363,16 +363,16 @@
 
 @media(max-width:428px) {
     .main-content-one{
-        height: 600px;
+        height: 650px;
     }
-    .main-content-two{
-        width: 100%;
-    }
+    
     .card-content-two{
+        width: 100%;
         height: auto;
+        margin-left: -5px;
     }
     .card-body-content-two{
-        margin-left: 130px;
+        margin-left: 120px;
     }
     .main-content-three{
         margin: 0 20px;
@@ -380,7 +380,7 @@
     .row-content-three img{
         width: 300px;
         height: auto;
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .right-custom{
         text-align: start;
