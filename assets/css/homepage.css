@@ -27,7 +27,7 @@
 }
 
 .top-content-custom{
-    padding: 100px;
+    margin: 100px;
     color: white;
 }
 
@@ -69,14 +69,18 @@
     padding: 10px;
 }
 
+.main-content-two{
+    width: 100%;
+}
+
 .card-content-two{
     margin-top: -50px;
-    width: 1200px;
+    width: 100%;
     height: 150px;
 }
 
 .card-body-content-two{
-    margin: 35px 100px;
+    margin: 35px 70px;
     padding: 0 50px;
 }
 
@@ -86,6 +90,10 @@
 
 .custom-store-info-text{
     border-right:1px solid #4F5665;   
+}
+
+.main-content-three{
+    margin: 0 120px;
 }
 
 .row-content-three img{
@@ -176,8 +184,8 @@
 }
 
 .custom-review {
-    padding-left: 7.5%;
-    margin-bottom: 100px;
+    padding-left: 150px;
+    margin-bottom: 10px;
 }
 
 .custom-review-card-selected {
@@ -195,13 +203,12 @@
     min-height: 250px;
     padding: 30px;
     margin: 50px 25px;
-
     background: #FFFFFF;
     border: 2px solid #DDDDDD;
     border-radius: 10px;
 }
 
-.custom-review-profpict-viezh {
+.custom-review-img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -248,18 +255,16 @@
     margin-top: -30px;
 }
 
-.card-see-promo{
-    width: 900px;
-    height: 200px;
-    padding: 50px 0;
-    margin: 50px 0;
+.see-promo-container{
+    width: 100%;
 }
 
 .custom-promo-today{
-    width: 400px;
-    height: 100px;
-    text-align: start;
-    padding: 0px 70px ;
+    margin: 50px 0;
+}
+
+.button-promo{
+    margin: 50px 0;
 }
 
 .main-bottom {
@@ -312,9 +317,14 @@
         height: 500px;
     }
     .card-content-two{
-        width: 700px;
         height: 300px;
         margin-top: 50px;
+    }
+    .custom-store-info-text{
+        border-right:none;   
+    }
+    .main-content-three{
+        margin: 0 70px;
     }
     .row-content-three img{
         margin-left: 100px;
@@ -323,8 +333,22 @@
         margin-left: 100px;
     }
     .custom-review {
-        padding-left: 0%;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
+        margin-left: -200px;
+    }
+    .custom-review-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .custom-review-card-selected {
+        width: 100%;
+    }
+    .custom-review-card {
+        width: 100%;
+    }
+    .left{
+        margin-left: 450px;
     }
     .button-promo{
         margin-top: -50px;
@@ -340,9 +364,17 @@
     .main-content-one{
         height: 600px;
     }
+    .main-content-two{
+        width: 100%;
+    }
     .card-content-two{
-        width: 700px;
-        height: 500px;
+        height: auto;
+    }
+    .card-body-content-two{
+        margin-left: 130px;
+    }
+    .main-content-three{
+        margin: 0 20px;
     }
     .row-content-three img{
         width: 300px;
@@ -374,6 +406,9 @@
     .card-see-promo{
         width: 350px;
         height: 400px;
+    }
+    .left{
+        margin-left: 110px;
     }
     .main-bottom {
         height: 900px;
