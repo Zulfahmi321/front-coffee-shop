@@ -320,6 +320,7 @@
     .card-content-two{
         height: 300px;
         margin-top: 50px;
+        margin-left: 0px;
     }
     .custom-store-info-text{
         border-right:none;   
